@@ -1,0 +1,14 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<h2 class="alert alert-info">매핑 주소 연습</h2>
+
+<button type="button" class="btn btn-info" onclick="location.href='dragon/sist'">result1</button>
+</body>
+</html>
