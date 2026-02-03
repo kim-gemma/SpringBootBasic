@@ -1,5 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-    pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,10 +11,18 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h2 class="alert alert-info">¸ÅÇÎ ÁÖ¼Ò ¿¬½À</h2>
-<button type="button" class="btn btn-info" onclick="location.href='dragon/sist'">result1</button>
-<button type="button" class="btn btn-info" onclick="location.href='naver/shop'">result2</button>
+<h2 class="alert alert-info">ë§¤í•‘ ì£¼ì†Œ ì—°ìŠµ</h2>
+<button type="button" class="btn btn-info" onclick="location.href='dragon/sist.do'">result1</button> <br><br>
+<button type="button" class="btn btn-info" onclick="location.href='naver/shop'">result2</button> <br><br>
 
-<h2 class="alert alert-info">ÀÌ¹ÌÁö Ãâ·Â ¿¬½À</h2>
+
+<button type="button" class="btn btn-info" onclick="location.href='apple/list'">result3</button> <br><br>
+<button type="button" class="btn btn-info" onclick="location.href='kakao/list'">result4</button><br><br>
+
+<h2 class="alert alert-info">ì´ë¯¸ì§€ ì¶œë ¥ ì—°ìŠµ</h2>
+<button type="button" class="btn btn-info" onclick="location.href='shop/detail'"> ì´ë¯¸ì§€ ì¶œëŸ­1</button><br><br>
+
+<button type="button" class="btn btn-info" onclick="location.href='admin/shop/mypage'">ì´ë¯¸ì§€ ì¶œëŸ­2</button><br><br>
+<button type="button" class="btn btn-info" onclick="location.href='myshop'">ì´ë¯¸ì§€ ì¶œëŸ­3</button><br><br>
 </body>
 </html>
