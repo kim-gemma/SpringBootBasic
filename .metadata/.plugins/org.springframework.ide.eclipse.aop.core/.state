@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <aop-reference-model>
+<aop-project name="SpringDBTest"/>
 <aop-project name="SpringMVCEx2"/>
+<aop-project name="SpringMVCEx4"/>
+<aop-project name="SpringMVCEx5"/>
+<aop-project name="SpringMVCEx6"/>
 <aop-project name="SpringEx1"/>
+<aop-project name="SpringMvcEx3"/>
 </aop-reference-model>

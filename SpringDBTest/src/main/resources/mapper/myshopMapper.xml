@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTDMapper3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="db.sts.sist.MyshopDao">
+	<select id="getAllListOfMyshop" resultType="mdto">
+		select * from myshop order by num desc
+	</select>
+	<insert id="insertOfMyshop" parameterType="mdto">
+		insert into myshop (sangpum,photo,price,ipgoday,writeday) 
+		values (#{sangpum},#{photo},#{price},#{ipgoday},now())
+	</insert>
+	<select id="getOneOfMyshop" parameterType="int" resultType="mdto">
+		select * from myshop where num=#{num}
+	</select>
+</mapper>
